@@ -1,12 +1,12 @@
-##MySQL Data Cleaning: Layoffs Staging Table
+# MySQL Data Cleaning: Layoffs Staging Table
 This project demonstrates a full data cleaning pipeline using MySQL, based on the layoffs dataset provided by Alex The Analyst.
 
-Dataset
+## Dataset
 Source: https://github.com/AlexTheAnalyst/MySQL-YouTube-Series/blob/main/layoffs.csv
 
 Description: The dataset contains layoff records including company, industry, location, date, funding, and layoff details.
 
-Project Overview
+## Project Overview
 This project focuses on cleaning and preparing the dataset for analysis. The main cleaning tasks include:
 
 Creating a staging table to protect raw data
@@ -21,7 +21,7 @@ Handling null or blank values across key columns
 
 Dropping irrelevant or helper columns after cleaning
 
-SQL Techniques Used
+## SQL Techniques Used
 Window functions (ROW_NUMBER() OVER PARTITION BY)
 
 Conditional updates using LOWER() and LIKE
@@ -39,7 +39,7 @@ Layoffs_staging_DataCleaningbyMySQL.sql
 
 Contains the full SQL script with clear comments, step-by-step cleaning operations, and structured logic.
 
-Final Outcome
+## Final Outcome
 The final cleaned layoffs_staging table is:
 
 Free of duplicates
@@ -50,6 +50,7 @@ Cleansed of blank or inconsistent data
 
 Ready for further analysis, visualization, or reporting
 
-Credits
+## Credits
 Dataset provided by Alex The Analyst
+
 Inspired by Alex’s MySQL YouTube tutorial series
